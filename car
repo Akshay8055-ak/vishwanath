@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <h2>car details</h2>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <script>
+            const myres={name:"bmw x5",speed:240,company:"bmw",onwer:"makam",mobileno:9972476088};
+
+            document.getElementById("demo").innerHTML=myres.name;
+            document.getElementById("demo1").innerHTML=myres.speed;
+            document.getElementById("demo2").innerHTML=myres.company;
+            document.getElementById("demo3").innerHTML=myres.mobileno;
+            document.getElementById("demo4").innerHTML=myres.onwer;
+
+
+        </script>
+    </body>
+</html>
+
